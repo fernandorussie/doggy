@@ -23,7 +23,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: red;
 }
 .navegation{
     width: 35vw;
@@ -31,7 +30,6 @@
     justify-content: space-between;
     align-items: center;
     list-style: none;
-    background-color: blue;
 }
 .item-nav{
     font-size: 1vw;
@@ -42,7 +40,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: green;
 }
 .image-call{
     width: 15%;
@@ -109,7 +106,6 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    background-color: red;
 }
 .card-dog{
     min-width: 20%;
@@ -118,11 +114,9 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: green;
 }
 .box-image-card{
     width: 70%;
-    background-color: blue;
 }
 .img-dog{
     width: 100%;
@@ -135,7 +129,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: greenyellow;
 }
 .option{
     font-size: 1.3vw;
@@ -168,8 +161,6 @@
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    
-    background-color: red;
 }
 .box-text-background{
     width: 85%;
@@ -177,7 +168,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: blue;
 }
 .title-background{
     font-size: 1.9vw;
@@ -188,47 +178,56 @@
 }
 .box-list{
     width: 82%;
-    background-color: blue;
 }
 .box-list li{
     font-size: 1.3vw;
 }
 
 .section-video{
-    height: 100vh;
+    width: 100%;
+    height: 75vh;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #FEAF02;
 }
 .box-center-video{
-    height: 80%;
+    width: 80%;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    background-color: red;
 }
 .title-section-video{
-
+    font-size: 2.2vw;
+    color: white;
 }
 .text-video{
 
 }
 .box-card-video{
+    width: 100%;
+    height: 50vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    background-color: blue;
+    flex-wrap: wrap;
 }
 .card-video{
-    background-color: greenyellow;
+    width: 37%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
 }
 .box-play{
     position: relative;
 }
 .video{
-    width: 30vw;
+    width: 28vw;
 }
 .player-video{
     position: absolute;
@@ -238,4 +237,70 @@
 }   
 .description-video{
 
+}
+
+.container-footer{
+    
+}
+.section-info-color{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3C4049;
+}
+.container-footer-info{
+    width: 75%;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.box-info{
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.title-footer{
+    font-size: 1.5vw;
+}
+.box-footer-content{
+    width: 18vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.box-footer-list{
+    width: 10vw;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style: none;
+}
+.section-copy{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #2E2F34;
+}
+.box-copy{
+    width: 86%;
+    display: flex;
+    color: white;
+}
+.section-layout{
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222326;
+    color: #707070;
+    font-size: 1vw;
 }
